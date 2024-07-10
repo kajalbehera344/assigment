@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-image: url(./11.jpg);
+        width: 100%;
+        height: 100%;
+    }
+    .form
+    {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 300px;
+        border: 2px solid black;
+        align-items: center;
+        margin:auto;
+        margin-top: 200px;
+        background-color: transparent;
+        box-shadow: inset -2px -4px black;
+        border-radius: 70px;
+    }
+    .box
+    {
+        padding: 20px;
+        margin:20px;
+        width: 40%;
+        box-shadow: inset -2px -3px ;
+        border-radius: 20px;
+    }
+    #submit
+
+    {
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 40%;
+        font-size: 1rem;
+    }
+    #submit:hover
+    {
+        background-color: rgb(41, 25, 5);
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <form action="" class="form">
+        <h1>login</h1>
+        <input type="text" name="username" class="box" placeholder=" Enter username">
+        <input type="password" name="password" class="box" placeholder="enter password">
+        <input type="submit"  id="submit" value="login">
+    </form>
+</body>
+</html>
